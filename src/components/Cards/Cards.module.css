@@ -1,0 +1,40 @@
+.container {
+    margin: 50px 0;
+}
+
+.card {
+    margin: 2.5% 2.5% !important;
+    background-color: #32323270 !important;
+    color: #dddddd !important;
+}
+
+.infected {
+    border-bottom: 10px solid #12cad695;
+}
+
+.recovered {
+    border-bottom: 10px solid #00e67395;
+}
+
+.deaths {
+    border-bottom: 10px solid #ff333395;
+}
+
+.infectText,
+.recoverText,
+.deathText {
+    font-size: 2em !important;
+    font-weight: 600 !important;
+}
+
+.infectText {
+    color: #12cad6;
+}
+
+.recoverText {
+    color: #00e673;
+}
+
+.deathText {
+    color: #ff3333;
+}

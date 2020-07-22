@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    background-color: #00000090;
+    padding: 4%;
+    margin: 2.5%;
+    max-width: 720px;
+}
+
+@media (max-width: 780px) {
+    .container {
+        margin: 10% 0;
+        width: 100%;
+    }
+}

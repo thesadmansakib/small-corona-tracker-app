@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(to right, #17706e, #204051);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 60%;
+    max-width: 360px;
+    margin-top: 50px;
+}
+
+@media (max-width: 780px) {
+    .container {
+        margin: 0 5%;
+    }
+}
